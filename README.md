@@ -2,10 +2,13 @@
 # JCloudBak
 
 
+
 ### 基于七牛云存储的可移动设备文件自动备份工具
 
 
+
 #### 1.配置
+
 
 ```properties
 # 1.应用配置
@@ -37,7 +40,9 @@ mail.from.password=123456
 mail.subject=JCloudBak
 ```
 
+
 #### 2.编译打包
+
 
 方式一
 
@@ -53,7 +58,10 @@ mail.subject=JCloudBak
 
 使用 IntelliJ IDEA 打包，jar 包默认保存在 ./target 目录下，名称为 app.jar
 
+
+
 #### 3.部署运行
+
 
 批处理脚本实现后台进程（无 cmd 窗口）方式
 
