@@ -46,13 +46,17 @@ mail.subject=JCloudBak
 
 方式一
 
-```mvn clean package```
+```
+mvn clean package
+```
 
 每次打包会执行单元测试中的测试用例，包括发送测试邮件，所以应保证邮件配置正确性
 
 方式二
 
-```mvn package -Dmaven.test.skip=true ```
+```
+mvn package -Dmaven.test.skip=true 
+```
 
 此方式会跳过所有测试用例，并在编译期间忽略所有测试类
 
