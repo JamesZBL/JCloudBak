@@ -5,7 +5,7 @@
 
 ### 基于七牛云存储的可移动设备文件自动备份工具
 
-
+[JCloudBak for Linux](https://gitee.com/zbl1996/JCloudBak-Linux)
 
 #### 1.配置
 
